@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">PopularMovieApp</string>
+    <string name="network_exit_app">Exit</string>
+    <string name="message_no_internet">Failed to send request to server.\nCheck your internet connection and try again</string>
+    <string name="try_again">Repeat</string>
+
+    //popular movies
+    <string name="popular_movies_title">Original title:</string>
+    <string name="popular_movies_popularity">Popularity:</string>
+    <string name="popular_movies_language">Original language:</string>
+    <string name="popular_movies_average">average</string>
+
 </resources>

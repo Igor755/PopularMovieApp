@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_popular_movies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_popular_movie" />
+
+    <com.test.popularmovie.ui.widgets.ProgressWheel
+        android:id="@+id/pw_fragment_bottom_nav_channel"
+        android:layout_width="@dimen/offset_x8"
+        android:layout_height="@dimen/offset_x8"
+        android:layout_gravity="center"
+        app:pw_barColor="@color/colorPrimary" />
+</FrameLayout>
